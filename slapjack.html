@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slapjack Game</title>
+    <link rel="stylesheet" href="slapjack.css">
+</head>
+<body>
+    <div id = "wrapper">
+        <div id = "opponent-face">XD</div>
+        <div id = "opponent-deck">
+            <div class = "card card-down"></div>
+        </div>
+        <div id = "discard-pile">
+            <div class = "card card-up">
+                <div class = "number straight"></div>
+                <div id = "card-art"></div>
+                <div class = "number flipped"></div>
+            </div>
+        </div>
+        <div id = "player-deck">
+            <div class = "card card-down"></div>
+        </div>
+        <div id = "player-face">:)</div>
+    </div>
+    <div class="win-lose-wrapper">
+        <h1 id="win-lose-status">Someone Wins</h1>
+        <a href="javascript:window.location.reload()" id="btn">Play Again</a>
+    </div>
+
+
+
+
+    <script src = "slapjack.js"></script>
+</body>
+</html>
